@@ -1,0 +1,43 @@
+body{
+	background: #380B61 url(../imagem/fundo.jpg) no-repeat top center;
+	font-family: Verdana;
+}
+#container{
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+#container img{
+	margin-top: -60px;
+	margin-bottom: 30px;
+	width: 120px;
+}
+input{
+	width: 90%;
+	height: 40px;
+	margin-bottom: 10px;
+	border: none;
+	text-indent: 40px;
+	font-size: 18px;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+.email{
+	background-image: url(../imagem/icone-usuario.png);
+}
+.senha{
+	background-image: url(../imagem/icone-cadeado.png);
+}
+#logar{
+	background: linear-gradient(to bottom, #FF8000, #F5D0A9);
+	color: white;
+	text-indent: 0;
+	height: 45px;
+	border: 2px solid #DF7401;
+	cursor: pointer;
+	font-weight: bold;
+}
